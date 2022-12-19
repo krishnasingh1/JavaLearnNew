@@ -1,4 +1,4 @@
-package ProblemsSolve;
+package ProblemsSolve.ScannerClass;
 
 import javax.security.auth.Subject;
 import java.util.Scanner;
