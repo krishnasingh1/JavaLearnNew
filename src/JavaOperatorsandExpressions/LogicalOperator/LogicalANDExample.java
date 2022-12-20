@@ -20,6 +20,14 @@ public class LogicalANDExample {
 
         // displaying b
         System.out.println("Value of b : "+b);
+
+        // for Logical OR Operator
+        if (a > c || (++b >  c)){
+            System.out.println(" Inside if block");
+        }
+
+        // displaying b
+        System.out.println("Value of b : "+b);
     }
 }
 
