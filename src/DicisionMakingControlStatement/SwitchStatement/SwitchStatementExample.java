@@ -76,3 +76,28 @@ public class SwitchStatementExample {
 //        System.out.println("Thanks for the using my Java code!");
     }
 }
+
+/*
+        Java Tutorial: Switch Case Statements in Java
+                Switch Case-Control Instruction
+                * Switch-Case is used when we have to make a choice between the number of alternatives for a given variable.
+                * Var can be an integer, character, or string in Java.
+                * Every switch case must contain a default case. The default case is executed when all the other cases are false.
+                * Never forget to include the break statement after every switch case otherwise the switch case will not terminate.
+                Syntax :
+                        Switch(var) {
+                            Case C1:
+                                //Code;
+                                break;
+                            Case C2:
+                                //Code;
+                                break;
+                            Case C3:
+                                //Code
+                                break;
+                            default:
+                                //Code
+
+                           A switch can occur within another but in practice, this is rarely done.
+
+ */
