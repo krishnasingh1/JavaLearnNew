@@ -1,0 +1,51 @@
+package JavaArray;
+
+public class MultidimensionalArray {
+    public static void main(String[] args) {
+
+        int [] marks; // A 1-D Array
+
+        int [] [] flats ;
+        flats = new int[2][3]; // A 2-D Array
+        flats [0] [0] = 101;
+        flats [0] [1] = 102;
+        flats [0] [2] = 103;
+        flats [1] [0] = 201;
+        flats [1] [1] = 202;
+        flats [1] [2] = 203;
+
+        // Displaying the 2-D Array ( For Loop )
+        System.out.println("Printing a 2-D Array using for loop");
+        for (int i = 0; i < flats.length; i++){
+            for (int j = 0; j < flats[i].length; j++){
+                System.out.print(flats[i][j]);
+                System.out.print(" ");
+            }
+            System.out.println("");
+        }
+
+
+    }
+}
+
+/*
+        Java Tutorial: Multidimensional Arrays in Java
+        Multidimensional Arrays are an Array of Arrays. Each elements of an M-D array is an array itself. Marks in the previous
+        example was a 1-D array.
+
+        * Multidimensional 2-D Array
+          A 2-D array can be created as follows:
+
+          int [][] flats = new int[2][3]          //A 2-D array of 2 rows + 3 columns
+
+          We can add elements to this array as follows
+
+            flats[0][0] = 100
+            flats[0][1] = 101
+            flats[0][2] = 102
+            // … & so on!
+
+            Similarly, a 3-D array can be created as follows:
+
+            String[][][] arr = new String [2][3][4]
+*/
