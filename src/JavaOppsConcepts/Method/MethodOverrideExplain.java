@@ -1,4 +1,4 @@
-package JavaOppsConcepts;
+package JavaOppsConcepts.Method;
 
 public class MethodOverrideExplain {
 
