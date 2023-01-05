@@ -17,7 +17,7 @@ public class StudentDataInArray {
     public static void main(String[] args) {
 
        // declare an array of integers.
-       Student [] arr;
+       Student[] arr;
 
        // allocation memory for 5 objects of type Student.
         arr = new Student[5];
